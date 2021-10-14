@@ -72,7 +72,7 @@ if (response === "left"){ //ZOmbie Branch 3 levels
             window.alert("What is that big floating thing?!!");
             window.alert("It's a ghost, and doesnt look to happy to see you");
             window.alert("Ghost Flies towards you, and get inside of you!");
-            window.alert("** Grunts, screams, cries** The Ghost has possed you!"):
+            window.alert("** Grunts, screams, cries** The Ghost has possed you!");
             window.alert("GAME OVER, You are dead!");
             location.reload();   
         }else if (response === "right"){
@@ -87,7 +87,7 @@ if (response === "left"){ //ZOmbie Branch 3 levels
         }
     }else if (response === "right"){
         window.alert("what is this?? this room is full of coffins!");
-        window.alert("**screeching noise** One Coffin Opens, and a vampire comes out!!");\
+        window.alert("**screeching noise** One Coffin Opens, and a vampire comes out!!");
         window.alert("RUN!!! look theres another pair of doors!")
         response =  window.prompt("Pick a door left or right");
         response = response.toLowerCase();
